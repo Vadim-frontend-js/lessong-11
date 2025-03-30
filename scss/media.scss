@@ -1,0 +1,139 @@
+@media screen and (max-width: 1110px) {
+    .conteiner {
+        padding: 0 calc(50vw - 350px);
+    }
+
+    .projects {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        flex-wrap: wrap;
+
+    }
+
+    .projects__item {
+        margin: 30px 0 30px 0;
+    }
+
+    .footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+}
+
+
+@media screen and (max-width: 720px) {
+
+
+    .conteiner {
+        padding: 0 calc(50vw - 300px);
+    }
+
+
+
+    .projects {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 23px;
+        flex-wrap: wrap;
+
+    }
+
+    .projects__item {
+        margin: 30px 0 30px 0;
+    }
+
+
+    .how-work {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .conteiner {
+        padding: 0 calc(50vw - 250px);
+    }
+
+    .video__play-icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 510px) {
+    .conteiner {
+        padding: 0 calc(50vw - 200px);
+    }
+
+    .footer {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .video__play-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 460px) {
+    .conteiner {
+        padding: 0 calc(50vw - 180px);
+    }
+
+    .header__page {
+        padding: 59px 0 20px 0;
+    }
+
+    .header__menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .offer__title {
+        font-size: 40px;
+    }
+
+        .projects {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+
+    }
+
+    .footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .conteiner {
+        padding: 0 calc(50vw - 170px);
+    }
+
+    .footer {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
