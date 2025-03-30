@@ -1,0 +1,33 @@
+.projects {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  background: #34547A;
+  color: #fff;
+
+  &__item {
+    margin: 100px 0 100px 0;
+    display: grid;
+    grid-template-columns: 50px auto;
+    grid-template-rows: min-content min-content;
+    gap: 5px 20px;
+    align-items: center;
+    line-height: 1;
+  }
+
+  &__icon {
+    grid-row: span 2;
+  }
+
+  &__number {
+    margin: 0;
+    font-weight: 500;
+    font-size: 21px;
+  }
+
+  &__type {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+  }
+}
