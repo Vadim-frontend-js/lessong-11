@@ -9,11 +9,11 @@
         gap: 20px;
         flex-wrap: wrap;
 
+        &__item {
+            margin: 30px 0 30px 0;
+        }
     }
 
-    .projects__item {
-        margin: 30px 0 30px 0;
-    }
 
     .footer {
         padding-top: 30px;
@@ -38,11 +38,11 @@
         gap: 23px;
         flex-wrap: wrap;
 
+        &__item {
+            margin: 30px 0 30px 0;
+        }
     }
 
-    .projects__item {
-        margin: 30px 0 30px 0;
-    }
 
 
     .how-work {
@@ -100,20 +100,21 @@
 
     .header__page {
         padding: 59px 0 20px 0;
+
+        &__menu {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
     }
 
-    .header__menu {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 20px;
-        flex-wrap: wrap;
-    }
 
     .offer__title {
         font-size: 40px;
     }
 
-        .projects {
+    .projects {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 20px;

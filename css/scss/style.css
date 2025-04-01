@@ -562,7 +562,7 @@ body {
   .header__page {
     padding: 59px 0 20px 0;
   }
-  .header__menu {
+  .header__page__menu {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
