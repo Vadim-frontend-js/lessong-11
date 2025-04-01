@@ -1,7 +1,9 @@
+@import "mixins";
+
 .header {
 
   &__page {
-    background: #EEEFF1;
+    @include  background(#EEEFF1);
     padding: 79px 0 20px 0;
   }
 
@@ -18,7 +20,7 @@
   }
 
   &__link {
-    color: #000;
+    @include color(#000);
     text-decoration: none;
     text-transform: uppercase;
 
@@ -29,7 +31,7 @@
   }
 
   &__link.__link--active {
-    color: #34547A;
+    @include color(#34547A);
     font-weight: 500;
     letter-spacing: 0.1em;
   }

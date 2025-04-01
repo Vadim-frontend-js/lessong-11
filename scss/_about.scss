@@ -1,3 +1,5 @@
+@import "mixins";
+
 .about {
   text-align: center;
   padding-top: 112px;
@@ -6,7 +8,7 @@
 
 .section-title {
   margin: 50px 0 50px 0;
-  color: #000;
+  @include color(#000);
   font-weight: 500;
   font-size: 32px;
   line-height: 1;

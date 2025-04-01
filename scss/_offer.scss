@@ -1,5 +1,7 @@
+@import "mixins";
+
 .offer {
-  background: #EEEFF1;
+  @include  background(#EEEFF1);
 
   &__title {
     margin: 0;
@@ -7,7 +9,7 @@
     padding-bottom: 44px;
     font-weight: 500;
     font-size: 48px;
-    color: #000;
+    @include color(#000);
   }
 
   &__description {
@@ -22,8 +24,8 @@
   padding: 25px 51px;
   text-align: center;
   letter-spacing: 0.1em;
-  color: #fff;
-  background: #34547A;
+  @include color(#fff);
+  @include  background(#34547A);
   cursor:pointer;
 
   &:hover,

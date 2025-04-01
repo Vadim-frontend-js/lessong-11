@@ -1,8 +1,10 @@
+@import "mixins";
+
 .footer {
   padding-top: 50px;
   padding-bottom: 50px;
-  background: #34547A;
-  color: #fff;
+  @include background(#34547A);
+  @include color(#fff);
 
   &__title {
     margin: 0 0 20px 0;
